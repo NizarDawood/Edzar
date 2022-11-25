@@ -1,0 +1,23 @@
+{
+  "name": "edzar",
+  "version": "1.0.0",
+  "description": "En uf hemsida med bilder till våra produkter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NizarDawood/Edzar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NizarDawood/Edzar/issues"
+  },
+  "homepage": "https://github.com/NizarDawood/Edzar#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
