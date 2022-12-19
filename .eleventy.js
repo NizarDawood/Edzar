@@ -1,12 +1,14 @@
-module.exports = function
-    (eleventyConfig) {
+module.exports = function (eleventyConfig) {
 
-    module.exports = function (eleventyConfig) {
-
-        eleventyConfig.addPassthroughCopy('image');
-
-        return {
-            dir: { input: 'src', output: 'dist' },
-        };
-    };
-}
+    eleventyConfig.addWatchTarget("./src/sass/");
+    eleventyConfig.addPassthroughCopy("./src/images/");
+  
+  
+  
+    return {
+      dir: {
+        input: "src",
+        output: "dist"
+      }
+    }
+  };
